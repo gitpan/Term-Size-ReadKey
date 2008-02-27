@@ -1,14 +1,17 @@
 --- #YAML:1.0
 name:                Term-Size-ReadKey
-version:             0.01
-abstract:            Perl extension for retrieving terminal size (using Term::ReadKey)
+version:             0.02
+abstract:            Retrieving terminal size (via Term::ReadKey)
 license:             perl
-generated_by:        ExtUtils::MakeMaker version 6.30_01
-author:              Adriano R. Ferreira <ferreira@cpan.org>
+author:              
+    - Adriano R. Ferreira <ferreira@cpan.org>
+generated_by:        ExtUtils::MakeMaker version 6.42
 distribution_type:   module
 requires:     
+    Exporter:                      0
+    strict:                        0
     Term::ReadKey:                 0
     Test::More:                    0
 meta-spec:
-    url: <http://module-build.sourceforge.net/META-spec-new.html>;
-    version: 1.1
+    url:     http://module-build.sourceforge.net/META-spec-v1.3.html
+    version: 1.3

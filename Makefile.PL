@@ -16,6 +16,9 @@ WriteMakefile(
     ) :()),
 
     PREREQ_PM     => {
+        strict                => 0,
+        Exporter              => 0,
+
         Term::ReadKey         => 0,
         Test::More            => 0, # build
     }, 
