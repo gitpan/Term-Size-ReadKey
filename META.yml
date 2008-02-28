@@ -1,7 +1,7 @@
 --- #YAML:1.0
 name:                Term-Size-ReadKey
-version:             0.02
-abstract:            Retrieving terminal size (via Term::ReadKey)
+version:             0.03
+abstract:            Retrieve terminal size (via Term::ReadKey)
 license:             perl
 author:              
     - Adriano R. Ferreira <ferreira@cpan.org>
@@ -12,6 +12,7 @@ requires:
     strict:                        0
     Term::ReadKey:                 0
     Test::More:                    0
+    vars:                          0
 meta-spec:
     url:     http://module-build.sourceforge.net/META-spec-v1.3.html
     version: 1.3

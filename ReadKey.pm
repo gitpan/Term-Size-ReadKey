@@ -5,14 +5,15 @@ use strict;
 
 require Exporter;
 
-our @ISA = qw(Exporter);
-our @EXPORT_OK = qw(chars pixels);
+use vars qw( @ISA @EXPORT_OK $VERSION );
+@ISA = qw( Exporter );
+@EXPORT_OK = qw( chars pixels );
 
-our $VERSION = 0.02;
+$VERSION = '0.03';
 
 =head1 NAME
 
-Term::Size::ReadKey - Retrieving terminal size (via Term::ReadKey)
+Term::Size::ReadKey - Retrieve terminal size (via Term::ReadKey)
 
 =head1 SYNOPSIS
 
@@ -115,4 +116,3 @@ sub pixels {
 }
 
 1;
-

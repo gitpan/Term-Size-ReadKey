@@ -1,4 +1,8 @@
-Revision history for Perl extension Term-Size-ReadKey.
+Revision history for Perl distribution Term-Size-ReadKey.
+
+0.03  Thu Feb 28 2008
+        - reconciliated dist with 5.005 (thanks, Slaven Rezic)
+        - we still cheat in tests
 
 0.02  Wed Feb 27 2008
         - borrowed the rewritten basic test from Term-Size-Perl
